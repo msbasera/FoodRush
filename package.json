@@ -1,0 +1,22 @@
+{
+  "name": "foodrush",
+  "version": "1.0.0",
+  "description": "A food delivery platform inspired by Swiggy and Zomato",
+  "license": "ISC",
+  "author": "msbasera",
+  "type": "module",
+  "main": "src/server.js",
+  "scripts": {
+    "dev": "tsx watch src/server.ts",
+    "build": "tsc"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.6",
+    "@types/node": "^26.6.6",
+    "tsx": "^4.23.15",
+    "typescript": "^7.0.2"
+  },
+  "dependencies": {
+    "express": "^5.3.0"
+  }
+}
